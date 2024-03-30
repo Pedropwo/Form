@@ -1,2 +1,2 @@
 # Form
-Basic Form
+Form skeleton
