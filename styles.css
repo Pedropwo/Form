@@ -1,0 +1,99 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;/*Define a fonte padrão do corpo do Documento*/
+  background-color: grey;/*Define a cor de fundo Q.C*/
+  padding: 20px;/*Adiciona um preenchimento no corpo do documento*/
+  border: 5px solid black;/*Adicona uma borda Q.C*/
+}
+/*Estilo de campo para o texto*/
+input[type="text"],
+   #text{
+  border: 1px solid black; /*Adiciona um borda Q.C*/
+  background-color: grey; /*Define a cor de fundo Q.C*/
+  padding: 7px; /*Adiciona um preenchimento interno*/
+  margin-bottom: 5px; /*Adiciona uma margem inferior*/
+  width: 100%; /*Define a largura*/
+  box-sizing: border-box; /*Garante que o tamanho total inclua o padding e a borda*/
+  color: black;/*Define a cor Q.C*/
+}
+/*Estilo de campo para o email*/
+input[type="email"],
+   #email{
+  border: 1px solid black;/*Adiciona uma borda Q.C*/
+  background-color: grey;/*Define a cor de fundo Q.C*/
+  padding: 10px; /*Adiciona um preenchimento interno*/
+  margin-bottom: 5px; /*Adiciona uma margem inferior*/
+  width: 100%; /*Define a largura*/
+  box-sizing: border-box; /*Garante que o tamanho total inclua o padding e a borda*/
+}
+/*Estilo de campo para o number*/
+input[type="number"], 
+   #number{
+  border: 1px solid black;/*Adiciona uma borda com Q.C*/
+  background-color: grey;/*Define a cor de fundo Q.C*/
+  padding: 4px; /*Adiciona um preenchimento interno*/
+  margin-bottom: 5px;/*Adiciona uma margem inferior*/
+  width: 43px;/*Define a largura*/
+  box-sizing: border-box; /*Garante que o tamanho total inclua o padding e a borda*/
+}
+/*Estilo de campo para o number*/
+input[type="tel"], 
+   #tel{
+  border: 1px solid black;/*Adiciona uma borda com Q.C*/
+  background-color: grey;/*Define a cor de fundo Q.C*/
+  padding: 4px; /*Adiciona um preenchimento interno*/
+  margin-bottom: 5px;/*Adiciona uma margem inferior*/
+  width: 125px;/*Define a largura*/
+  box-sizing: border-box; /*Garante que o tamanho total inclua o padding e a borda*/
+}  
+/*Estilo para o fundo do formulario e a sombra*/
+form {
+  background-color: rgb(56,59,56);/*Define a cor de fundo Q.C*/
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);/*Adiciona uma sombra ao formulario*/
+  padding: 20px;/*Adiciona um preenchimento interno*/
+  color: grey;/*Define a cor Q.C*/
+  border: 1px solid black;/*Adiciona uma borda Q.C*/
+}
+/*Estiliza o botão de envio do formulario*/
+input[type="submit"],
+button {
+  background-color: #007bff;/*Define a cor do fundo Q.C*/
+  color: black;/*Define a cor*/
+  padding: 10px 20px;/*Adiciona um preenchimento interno*/
+  border: none;/*Remove as bordas do botão de envio*/
+  border-radius: 5px;/*Arredonda as bordasdo botão de envio*/
+  cursor: pointer;/*Define o cursor do mouse como um indicador de clique*/
+  margin-top: 20px;/*Adiciona uma borda inferior*/
+}
+/*Altera a cor de fundo do botão de envio ao passar o mouse*/
+input[type="submit"]:hover,
+button:hover {
+  background-color: grey;/*Define a cor de fundo Q.C*/
+}
+/*Estiliza os rotúlos dos campos de entrada*/
+label {
+  display: block;/*Exibe os rotúlos como blocos*/
+  margin-bottom: 5px;/*Adiciona uma margem inferior*/
+  color:black;/*Define a cor Q.C*/
+}
+/*Estiliza o fundo do elemento com o id "comment"*/
+#comment{
+  background-color: grey;/*Define a cor fundo Q.C*/
+  width: 100%;/*Define a largura*/
+  border-color: black;/*Define a cor da borda Q.C*/
+ }
+ input[type="text"]::placeholder,
+ input[type="email"]::placeholder,
+ input[type="number"]::placeholder,
+ input[type="tel"]::placeholder {
+  color: black;/*Adiciona a cor Q.C*/
+ } 
+ #survey-form label{
+   display: inline-block;/*Define os rotúlos como elementos em linha  com bloco*/
+   margin-right: 10px;/*Adicona uma margem à direita de cada rotúlo*/
+   vertical-align: middle;/*Alinham verticalmente os rotúlos com os elementosde entrada*/
+   font-size: 15px;/*Define o tamanho da fonte dos rotúlos*/
+ }
+
+
+ 
